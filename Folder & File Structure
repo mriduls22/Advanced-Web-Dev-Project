@@ -1,0 +1,37 @@
+your-laravel-project/
+│
+├─ app/
+│  └─ Models/
+│     └─ Post.php
+│
+├─ app/
+│  └─ Http/
+│     └─ Controllers/
+│        └─ PostController.php
+│
+├─ database/
+│  └─ migrations/
+│     └─ 2025_xx_xx_create_posts_table.php   (replace xx with actual date)
+│
+├─ database/
+│  └─ seeders/
+│     └─ AdminSeeder.php
+│
+├─ resources/
+│  └─ views/
+│     └─ posts/
+│        ├─ index.blade.php
+│        ├─ create.blade.php
+│        └─ edit.blade.php
+│
+├─ resources/
+│  └─ views/
+│     └─ layouts/
+│        └─ navigation.blade.php   (edit to show logo)
+│
+├─ public/
+│  └─ images/
+│     └─ logo.png
+│
+└─ routes/
+   └─ web.php
